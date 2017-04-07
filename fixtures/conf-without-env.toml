@@ -1,0 +1,4 @@
+[batman]
+    NODE_ENV = "awesome"
+    METRICS = "127.0.0.1"
+    PORT = 9200

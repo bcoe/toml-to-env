@@ -1,0 +1,41 @@
+{
+  "name": "toml-to-env",
+  "version": "1.0.0",
+  "description": "give me a toml configuration file, I'll give you export FOO=bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha test.js"
+  },
+  "bin": "./bin/toml-to-env.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/toml-to-env.git"
+  },
+  "keywords": [
+    "toml",
+    "config",
+    "env",
+    "environment"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/toml-to-env/issues"
+  },
+  "homepage": "https://github.com/bcoe/toml-to-env#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0",
+    "standard": "^10.0.1"
+  },
+  "dependencies": {
+    "shell-escape": "^0.2.0",
+    "toml": "^2.3.2",
+    "yargs": "^7.0.2"
+  },
+  "files": [
+    "./bin",
+    "index.js"
+  ]
+}

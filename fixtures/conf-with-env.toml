@@ -1,0 +1,4 @@
+[environment]
+    NODE_ENV = "ben's awesome env"
+    METRICS = "127.0.0.1"
+    PORT = 9200
