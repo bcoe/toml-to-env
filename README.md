@@ -19,6 +19,7 @@ eval $(toml-to-env /path/to/config.toml)
 To unset an environment, do:
 
 ```bash
+#!/usr/bin/env bash
 eval $(toml-to-env unset /path/to/config.toml)
 ```
 
