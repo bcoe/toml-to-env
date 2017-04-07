@@ -1,6 +1,6 @@
 {
   "name": "toml-to-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "give me a toml configuration file, I'll give you export FOO=bar",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "yargs": "^7.0.2"
   },
   "files": [
-    "./bin",
+    "./bin/toml-to-env.js",
     "index.js"
   ]
 }
