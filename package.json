@@ -4,7 +4,8 @@
   "description": "give me a toml configuration file, I'll give you export FOO=bar",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha test.js"
+    "test": "nyc mocha test.js",
+    "release": "standard-version"
   },
   "bin": "./bin/toml-to-env.js",
   "repository": {
@@ -26,8 +27,9 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "nyc": "^10.2.0",
-    "standard": "^10.0.1"
+    "nyc": "^13.0.0",
+    "standard": "^10.0.1",
+    "standard-version": "^4.4.0"
   },
   "dependencies": {
     "@iarna/toml": "^1.6.0",
