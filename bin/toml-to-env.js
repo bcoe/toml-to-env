@@ -2,7 +2,7 @@
 
 const tomlToEnv = require('../')
 const shellEscape = require('shell-escape')
-const argv = require('yargs')
+require('yargs')
   .usage('$0 <command|path>')
   .command(['export <path>', '*'], 'generate export commands from TOML', () => {}, (argv) => {
     tomlToEnv(argv.path, (err, env) => {
@@ -33,4 +33,4 @@ const argv = require('yargs')
   .demandCommand(1, 'must provide path to TOML file')
   .help()
   .epilog('convert an enviornment stanza in a TOML file to export FOO=BAR')
-  .argv
+  .parse()
