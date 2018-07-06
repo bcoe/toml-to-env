@@ -1,6 +1,6 @@
 {
   "name": "toml-to-env",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "give me a toml configuration file, I'll give you export FOO=bar",
   "main": "index.js",
   "scripts": {
